@@ -1,9 +1,7 @@
 let webrtcConfiguration = {
     'iceServers': [
         {
-            urls: 'turn:YOUR_COTURN_SERVER:3478',
-            username: 'xqe2011',
-            credential: 'xqe2011'
+            urls: 'turn:YOUR_COTURN_SERVER:3478'
         }
     ],
 }
