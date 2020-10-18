@@ -11,4 +11,5 @@ It establishes a P2P connection, so it is Low-Lantency and secrecy!
 npm install
 node server.js
 ```
+Open `static/js/common.js`, and change `YOUR_COTURN_SERVER` to your own TURN Server.  
 Then Navigate to `http://127.0.0.1`, and try it!
