@@ -1,0 +1,61 @@
+@media all and (orientation : landscape){
+    :root {
+        font-size: 3vh;
+    }
+}
+
+@media all and (orientation : portrait){
+    :root {
+        font-size: 3vw;
+    }
+}
+
+.keyboard > tbody > tr > th{
+    background: white;
+    width: 10rem;
+    height: 4rem;
+    font-size: 1.5rem;
+}
+
+.keyboard > tbody > tr > th:active{
+    background: rgba(255, 255, 255, 0.6);;
+}
+
+.keyboard > tbody > tr:not(:last-child) > th{
+    box-sizing: inherit;
+    border-bottom: rgb(192, 192, 192);
+    border-bottom-style: solid;
+    border-bottom-width: 0.1rem;
+}
+
+.keyboard > tbody > tr > th:not(:last-child){
+    box-sizing: inherit;
+    border-right: rgb(192, 192, 192);
+    border-right-style: solid;
+    border-right-width: 0.1rem;
+}
+
+.keyboard > tbody > tr:last-child > th:last-child{
+    border-bottom-right-radius: 1rem;
+}
+
+.keyboard > tbody > tr:last-child > th:first-child{
+    border-bottom-left-radius: 1rem;
+}
+
+.centralNotice {
+    background: rgb(192, 192, 192);
+    border-radius: 1rem;
+}
+
+#roomID {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+body {
+    background: rgb(128, 128, 128);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,79 @@
+.centralNotice {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.startButton {
+    height: 2rem;
+    width: 25rem;
+    border-radius: 5rem;
+    border: none;
+    background: #008CBA;
+}
+
+.startButton:active {
+    background: rgba(0, 140, 186, 0.6);
+}
+
+#mask {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background: rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+}
+
+.centralNotice > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centralMask {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 1rem 0 1rem 0;
+}
+
+.mainVideo {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    background: black;
+}
+
+#roomID > div {
+    background: white;
+    width: 3rem;
+    height: 3rem;
+    margin: 0.2rem 1rem 0.2rem 0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+
+#roomID > .highlight {
+    border: solid #3CA2C3 0.2rem;
+    margin: 0 0.8rem 0 0 ;
+}
+
+#roomID > :last-child :not(.highlight) {
+    margin-right: 0.2rem !important;
+}
+
+#roomID {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 0.4rem;
+}

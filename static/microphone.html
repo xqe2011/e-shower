@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Microphone</title>
+        <link rel="stylesheet" type="text/css" href="css/common.css">
+        <link rel="stylesheet" type="text/css" href="css/microphone.css">
+        <script src="js/socket.io.js"></script>
+        <script type="text/javascript" src="js/common.js"></script>
+        <script type="text/javascript" src="js/microphone.js"></script>
+    </head>
+    <body>
+        <div class="centralNotice">
+            <div id="roomID">
+                <div class="highlight"> </div>
+                <div> </div>
+                <div> </div>
+                <div> </div>
+                <div> </div>
+                <div> </div>
+            </div>
+            <table class="keyboard" id="keyboard" cellspacing="0">
+                <tbody>
+                    <tr>
+                        <th onclick="onKey('1')">1</th>
+                        <th onclick="onKey('2')">2</th>
+                        <th onclick="onKey('3')">3</th>
+                    </tr>
+                    <tr>
+                        <th onclick="onKey('4')">4</th>
+                        <th onclick="onKey('5')">5</th>
+                        <th onclick="onKey('6')">6</th>
+                    </tr>
+                    <tr>
+                        <th onclick="onKey('7')">7</th>
+                        <th onclick="onKey('8')">8</th>
+                        <th onclick="onKey('9')">9</th>
+                    </tr>
+                    <tr>
+                        <th onclick="onKey('backspace')">DEL</th>
+                        <th onclick="onKey('0')">0</th>
+                        <th onclick="onKey('enter')">GO</th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>

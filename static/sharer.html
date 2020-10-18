@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Screen Sharer</title>
+        <link rel="stylesheet" type="text/css" href="css/common.css">
+        <script src="js/socket.io.js"></script>
+        <script type="text/javascript" src="js/common.js"></script>
+        <script type="text/javascript" src="js/sharer.js"></script>
+    </head>
+    <body onkeydown="onKey(event)">
+        <video class="mainVideo" id="mainVideo" width="100%" height="100%" controls playsinline autoplay></video>
+        <div id="mask">
+            <div class="centralMask">
+                <div class="centralNotice">
+                    <div id="roomID">
+                        <div class="highlight"> </div>
+                        <div> </div>
+                        <div> </div>
+                        <div> </div>
+                        <div> </div>
+                        <div> </div>
+                    </div>
+                    <button class="startButton" onclick="go()" id="goButton">GO</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
